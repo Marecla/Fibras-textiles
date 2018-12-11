@@ -57,6 +57,10 @@ hr{
     width: 25%;
     padding: 30px;
 }
+#articulo-3, #articulo-4,#articulo-5 {
+min-height: 600px;
+}
+
 
 .footer{
     background-color: black;
