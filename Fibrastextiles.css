@@ -1,5 +1,5 @@
 body{
-    background-color: aqua;
+    background-color: rgb(131, 234, 241);
     padding:100px ;
 }
 h1{
@@ -27,8 +27,48 @@ li{
     width: 500px;
 }
 .articulo{
-    float: left;
+    display: inline-block;
     width: 40%;
     padding: 15px;
 }
+hr{
+    border-style: dotted;
+    color: palevioletred;
+}
+.fibras{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 10px;   
+}
 
+.fibras div{
+    margin: 40px;
+}
+.box {
+    background: palevioletred;
+    height: 100px;
+    width: 120px;
+    position: relative;
+}
+
+.articulo1{
+    display: inline-block;
+    width: 25%;
+    padding: 30px;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    width:100%;
+    justify-content: space-between;
+}
+.footer ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer ul li{
+    margin-left:50px;
+}
